@@ -1,26 +1,80 @@
-.hero{
-    background-image: url('/hero_background.jpg');
-    background-size: contain;
-    min-height: 88vh;
-    /* min-width: 100vw; */
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-    justify-content: space-around;
-}
-
-.hero-content{
-    width: 50%;
-    color: white;
+/* main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+} */
+.hero {
+  background-image: url("/hero_background.jpg");
+  background-size: contain;
+  min-height: 88vh;
+  /* min-width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-around;
 }
 
-.hero-illustration{
-    width: 50%;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
+.hero-content {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-illustration {
+  width: 50%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  background: url(/hero_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 10%;
+}
+
+.feature-lines {
+  padding: 0 13vw;
+  margin: 0 0 5rem;
+  text-align: center;
+}
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.feature-card {
+  display: flex;
+  gap: 2rem;
+}
+
+.feature-card .feature-image {
+  width: 150px;
+  height: 150px;
+}
+
+.feature-image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio: 4 / 3; */
+}
+
+main .signup {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: url("/hero_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signup .signup-text {
+  width: 50%;
+  text-align: center;
+  text-wrap: balance;
 }
