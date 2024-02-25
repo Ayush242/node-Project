@@ -10,6 +10,7 @@ export default function AddTasks() {
     
     function handleCancel() {
         setIsHabitClicked(false);
+        setIsBtnClicked(false);
     }
 
   return (

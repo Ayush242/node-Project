@@ -4,14 +4,15 @@ import Collection from "./Collection";
 export default function Tasks() {
     const types = ["Habits", "Dailies", "To Do's", "Rewards"];
     return (
-        <>
-            <h3>Tasks</h3>
-            <AddTasks />
+        <div>
+            <h1>Tasks</h1>
+            <p>ghhkjh</p>
+            {/* <AddTasks />
             {types.map((type, index) => {
                     return <Collection type={type} key={index} className=""/>
                 }
-            )}
+            )} */}
 
-        </>
+        </div>
     )
 }
