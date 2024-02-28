@@ -1,0 +1,119 @@
+@media screen and (min-width: 976px) {
+  .mainStatus-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid;
+  }
+  .avatarPreview-container {
+    width: 50vw;
+  }
+
+  .todoStatus-container {
+    width: 40vw;
+    padding: 10px 40px;
+    /* border: 2px solid white; */
+    text-align: center;
+  }
+
+  .todoStatus-container .todoStatus-box {
+    border: 2px solid blanchedalmond;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+  }
+
+  .todosDiv,
+  .habitsDiv,
+  .dailiesDiv,
+  .rewardsDiv {
+    border: 2px solid beige;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease-in-out;
+  }
+
+  .todosDiv:hover,
+  .habitsDiv:hover,
+  .dailiesDiv:hover,
+  .rewardsDiv:hover {
+    border: 2px solid #000000;
+    background-color: #646cff;
+    box-shadow: -9px -16px #646cff;
+  }
+
+  .todoHeading,
+  .habitsHeading,
+  .dailiesHeading,
+  .rewardsHeading {
+    font-weight: 600;
+    font-size: larger;
+  }
+
+  .todoContinue-btn {
+    margin: 20px 0 0 0;
+  }
+
+  .avatarPreview-container,
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    /* background: url(/src/assets/Male-1.png); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 80vh;
+  }
+
+  /* /avatar/edit styles */
+
+  .avatarList-container {
+    width: 70vw;
+  }
+  .avatarList-box .avatar {
+    box-shadow: 7px 4px 15px #11021363;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .avatar .avatar-img {
+    height: 30vh;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .avatar .avatar-info {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .img1 {
+    background-image: url(/src/assets/Female-1.png);
+  }
+  .img2 {
+    background-image: url(/src/assets/Female-2.png);
+  }
+  .img3 {
+    background-image: url(/src/assets/Female-3.png);
+  }
+  .img4 {
+    background-image: url(/src/assets/Female-4.png);
+  }
+  .img5 {
+    background-image: url(/src/assets/Male-1.png);
+  }
+  .img6 {
+    background-image: url(/src/assets/Male-2.png);
+  }
+  .img7 {
+    background-image: url(/src/assets/Male-3.png);
+  }
+  .img8 {
+    background-image: url(/src/assets/Male-4.png);
+  }
+}

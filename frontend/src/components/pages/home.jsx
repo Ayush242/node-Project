@@ -1,5 +1,4 @@
 import SignUp from "./SignUp";
-import "../../style/home.css";
 
 export default function Home() {
   return (

@@ -1,7 +1,12 @@
+import { useContext } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import { CoinsContext } from "./CoinManager";
 
-export default function Navbar() {
+function TodoNavBar() {
+  const { coinState } = useContext(CoinsContext);
+  console.log(coinState);
   return (
+    //using context api to provide context and useContext wherever necessary to consme it
     <>
       <nav className="navbar">
         <div className="navbar-brand">
@@ -13,7 +18,10 @@ export default function Navbar() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/signup">Signup</NavLink>
+            <NavLink to="/signup">Challenges</NavLink>
+          </li>
+          <li>
+            Coins: <span>{coinState}</span>
           </li>
         </ul>
       </nav>
@@ -21,3 +29,5 @@ export default function Navbar() {
     </>
   );
 }
+
+export default TodoNavBar;
